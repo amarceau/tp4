@@ -1,0 +1,86 @@
+1 - testerInstancierEtToString()
+	a. true
+	b. true
+	c. longueur: 4 [2.0, 2.0, 2.0, 2.0]
+	d. longueur: 3 [0.0, 0.0, 0.0]
+	e. longueur: 5 [0.0, 0.0, 0.0, 0.0, 0.0]
+	f. true
+	g. true
+	h. true
+	i. true
+2 - testerSetAll()
+	a. longueur: 4 [2.0, 2.0, 2.0, 2.0]
+	b. longueur: 4 [1.0, 1.0, 1.0, 1.0]
+	c. true
+3 - testerSize()
+	a. longueur: 4 [0.0, 0.0, 0.0, 0.0]
+	b. true
+	c. longueur: 0 []
+	d. true
+4 - testerSet()
+	a. longueur: 4 [0.0, 0.0, 0.0, 0.0]
+	b. longueur: 4 [1.0, 2.0, 3.0, 4.0]
+	c. true
+5 - testerGet()
+	a. valeur écrite : 1.0 - valeur lu : 1.0 -> true
+	b. valeur écrite : 2.0 - valeur lu : 2.0 -> true
+	c. valeur écrite : 3.0 - valeur lu : 3.0 -> true
+	d. valeur écrite : 4.0 - valeur lu : 4.0 -> true
+6 - testerAdd()
+	a. longueur: 0 []
+	b. longueur: 4 [1.0, 2.0, 3.0, 4.0]
+	c. true
+7 - testerClear()
+	a. longueur: 4 [3.0, 3.0, 3.0, 3.0]
+	b. longueur: 0 []
+	c. true
+8 - testerRemove()
+	a. longueur: 0 []
+	b. longueur: 5 [1.0, 2.0, 3.0, 4.0, 5.0]
+	c. longueur: 4 [2.0, 3.0, 4.0, 5.0]
+	d. true
+	e. longueur: 3 [2.0, 4.0, 5.0]
+	f. true
+	g. longueur: 2 [2.0, 4.0]
+	h. true
+9 - testerSetTab()
+	a. longueur: 0 []
+	b. longueur: 2 [4.0, 2.0]
+	c. true
+	d. longueur: 4 [0.0, 0.0, 0.0, 0.0]
+	e. longueur: 0 []
+	f. true
+	g. longueur: 1 [0.0]
+	h. longueur: 2 [1.0, 2.0]
+	i. true
+10 - testerGetSomme()
+	a. longueur: 0 []
+	b. true
+	c. longueur: 4 [1.0, 1.0, 1.0, 1.0]
+	d. true
+11 - testerEstPlusPetit1Argument()
+	a. longueur: 0 []
+	b. longueur: 0 []
+	c. true
+	d. longueur: 6 [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	e. longueur: 6 [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	f. true
+	g. longueur: 6 [2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+	h. longueur: 6 [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	i. true
+	j. longueur: 2 [1.0, 1.0]
+	k. longueur: 2 [2.0, 2.0]
+	l. true
+12 - testerEstPlusPetit2Arguments()
+	a. longueur: 0 []
+	b. longueur: 0 []
+	c. true
+	d. longueur: 6 [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	e. longueur: 6 [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	f. true
+	g. longueur: 6 [2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+	h. longueur: 6 [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	i. true
+	j. longueur: 3 [-1.0, 2.0, 5.0]
+	k. longueur: 3 [-1.0, 2.0, 6.0]
+	l. true
